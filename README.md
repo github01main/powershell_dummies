@@ -63,7 +63,7 @@ MachinePolicy       Undefined
  LocalMachine       AllSigned
 ```
 
-**still it's not working ? of couse as i mentioned from top reboot your PC and import commands on your powershell. :)**
+**reboot your PC and import above install commands on your powershell then it works. :)**
 ## Updates
 
 Run the update tool, which is generated inside each project:
