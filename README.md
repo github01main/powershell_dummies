@@ -22,7 +22,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 # or shorter
 iwr -useb get.scoop.sh | iex
 ```
-if you didn't worked follow this [Execution policies](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) and reboot your computer.
+if you didn't worked ? it's ok just follow this [Execution policies](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) and reboot your computer.
 
 1. first step check your powershell Execution Policies.
 ```powershell
@@ -39,17 +39,19 @@ MachinePolicy       Undefined
   CurrentUser    RemoteSigned
  LocalMachine       AllSigned
 ```
-**normally policies are randomly set-up on your pc don't worry about these settings. we gonna change for use scoop.**
+**normally policies are randomly set-up on your pc you don't need to focus these settings.**
 
 3. set up new Execution policy.
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
 **we have plenty of selection of Execution Policy example check the below...**
-| **Group Policy** | **Execution Polcity**|
+| Group Policy | Execution Polcity|
+| ------------- | ------------- |
 | Allow all scripts | Unrestricted |
 | Allow local scripts and remote signed scripts | RemoteSigned |
 | Allow only signed scripts | AllSigned |
+
 ```powershell
 
 ```
