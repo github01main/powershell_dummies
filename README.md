@@ -14,11 +14,12 @@ list of powershell scripts auto-complete-macro.
 
 
 ## Usage
-you must Install `scoop` on your PC if you are using windows os:
-* [scoop-install-official](https://scoop.sh/)
-```python
-pip install cookiecutter
-cookiecutter gh:jacebrowning/template-python -f
+you must Install `[scoop](https://scoop.sh/)` on your PC if you are using windows os:
+```powershell
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+# or shorter
+iwr -useb get.scoop.sh | iex
 ```
 
 Cookiecutter will ask you for some basic info (your name, project name, python package name, etc.) and generate a base Python project for you.
