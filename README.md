@@ -10,7 +10,7 @@ i'm mainly use windows 10 these shell scripts are maded for my project please do
 
 list of powershell scripts auto-complete-macro.
 
-* [powershell_dummies/scoop-windws-terminal](https://github.com/github01main/powershell_dummies/tree/main/scoop-windows-terminal)
+* [powershell_dummies/scoop-windows-terminal](https://github.com/github01main/powershell_dummies/tree/main/scoop-windows-terminal)
 * [powershell_dummies/scoop-linux-toolkit](https://github.com/github01main/powershell_dummies/tree/main/scoop-linux_toolkit)
 * [powershell_dummies/scoop-nodejs](https://github.com/github01main/powershell_dummies/tree/main/scoop-nodejs)
 * [powershell_dummies/scoop-hub](https://github.com/github01main/powershell_dummies/tree/main/scoop-hub)
