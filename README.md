@@ -11,7 +11,7 @@ i'm mainly use windows 10 these shell scripts are maded for my project please do
 list of powershell scripts auto-complete-macro.
 
 * [powershell_dummies/scoop-windws-terminal](https://github.com/github01main/powershell_dummies/tree/main/scoop-windows-terminal)
-
+* [powershell_dummies/scoop-linux-toolkit](https://github.com/github01main/powershell_dummies/tree/main/scoop-linux-toolkit)
 
 ## Usage
 you must Install [scoop](https://scoop.sh/) on your PC if you are using windows os.<br/>
@@ -64,10 +64,3 @@ MachinePolicy       Undefined
 ```
 
 **reboot your PC and import above install commands on your powershell then it works. :)**
-## Updates
-
-Run the update tool, which is generated inside each project:
-
-```powershell
-
-```
