@@ -65,4 +65,5 @@ MachinePolicy       Undefined
  LocalMachine       AllSigned
 ```
 
+4. Reboot PC
 **reboot your PC and import above install commands on your powershell then it works. :)**
