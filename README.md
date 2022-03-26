@@ -51,11 +51,19 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 | Allow all scripts         | `Unrestricted`    |
 | Allow local scripts and remote signed scripts | `RemoteSigned` |
 | Allow only signed scripts | `AllSigned`       |
-```powershell
 
+**then your ExecutionPolicy is changed to Unrestricted check below codes ! then scoop installer is working now.**
+```powershell
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy       Undefined
+   UserPolicy       Undefined
+      Process       Undefined
+  CurrentUser    Unrestricted
+ LocalMachine       AllSigned
 ```
-······The winter has sparkling and frozen elements!
-········Many snowflakes are falling down.
+
+**still it's not working ? of couse as i mentioned from top reboot your PC and import commands on your powershell. :)**
 ## Updates
 
 Run the update tool, which is generated inside each project:
