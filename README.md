@@ -14,7 +14,7 @@ list of powershell scripts auto-complete-macro.
 
 
 ## Usage
-you must Install [scoop](https://scoop.sh/) on your PC if you are using windows os.
+you must Install [scoop](https://scoop.sh/) on your PC if you are using windows os.<br/>
 Make sure PowerShell 5 (or later, include PowerShell Core) and .NET Framework 4.5 (or later) are installed. Then run:
 ```powershell
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
