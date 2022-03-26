@@ -29,9 +29,9 @@ if you didn't worked ? it's ok just follow this [Execution policies](https://doc
 Get-ExecutionPolicy -List
 ```
 
-2. then read these policies what is locked.
+2. then read on your command line these policies what is locked.
 ```powershell
-Scope ExecutionPolicy
+        Scope ExecutionPolicy
         ----- ---------------
 MachinePolicy       Undefined
    UserPolicy       Undefined
@@ -51,13 +51,11 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 | Allow all scripts         | `Unrestricted`    |
 | Allow local scripts and remote signed scripts | `RemoteSigned` |
 | Allow only signed scripts | `AllSigned`       |
-·| Element | Attribute             |
-·| ------- | ---------             |
-·| Frost   | Sparkling and frozen! |
-·| Snow    | Falling down!         |
 ```powershell
 
 ```
+······The winter has sparkling and frozen elements!
+········Many snowflakes are falling down.
 ## Updates
 
 Run the update tool, which is generated inside each project:
