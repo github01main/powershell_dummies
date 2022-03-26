@@ -1,5 +1,5 @@
 hub init
-hub hub remote add github01main
+hub remote add github01main
 hub add -A
 $commit_content = Read-Host "Please enter your commit content "
 hub commit -m $commit_content
