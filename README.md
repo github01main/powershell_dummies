@@ -1,41 +1,21 @@
-# your django project title name.
+# powershell scripts auto-complete-macro.
 
-This is your description of your django project .. this is your demo web site link: [your official website](https://google.com)
+i'm mainly use windows 10 these shell scripts are maded for my project please don't use officially on your project.
 
 ## Features
 
-* Preconfigured setup for CI, coverage, and analysis services
-* `pyproject.toml` for managing dependencies and package metadata
-* `Makefile` for automating common [development tasks](https://github.com/jacebrowning/template-python/blob/main/%7B%7Bcookiecutter.project_name%7D%7D/CONTRIBUTING.md):
-    - Installing dependencies with `poetry`
-    - Automatic formatting with `isort` and `black`
-    - Static analysis with `pylint`
-    - Type checking with `mypy`
-    - Docstring styling with `pydocstyle`
-    - Running tests with `pytest`
-    - Building documentation with `mkdocs`
-    - Publishing to PyPI using `poetry`
-* Tooling to launch an IPython session with automatic reloading enabled
+* windows-terminal update and installing with scoop CLI installer is added.
+* `custom-windows-terminal-settings.json` is custom background templetes included. `Dracula`, `Vibrant Tom`
 
-If you are instead looking for a [Python application](https://caremad.io/posts/2013/07/setup-vs-requirement/) template, check out one of the sibling projects:
 
-* [jacebrowning/template-django](https://github.com/jacebrowning/template-django)
-* [jacebrowning/template-flask](https://github.com/jacebrowning/template-flask)
+list of powershell scripts auto-complete-macro.
 
-## Examples
+* [powershell_dummies/scoop-windws-terminal](https://github.com/github01main/powershell_dummies/tree/main/scoop-windows-terminal)
 
-Here are a few sample projects based on this template:
-
-* [jacebrowning/minilog](https://github.com/jacebrowning/minilog)
-* [theovoss/Chess](https://github.com/theovoss/Chess)
-* [sprout42/StarStruct](https://github.com/sprout42/StarStruct)
-* [MichiganLabs/flask-gcm](https://github.com/MichiganLabs/flask-gcm)
-* [flask-restful/flask-restful](https://github.com/flask-restful/flask-restful)
 
 ## Usage
-
-Install `cookiecutter` and generate a project:
-
+you must Install `scoop` on your PC if you are using windows os:
+* [scoop-install-official](https://scoop.sh/)
 ```python
 pip install cookiecutter
 cookiecutter gh:jacebrowning/template-python -f
