@@ -45,12 +45,12 @@ MachinePolicy       Undefined
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
-**we have plenty of selection of Execution Policy example check the below... i recommend second one.**
-| Group Policy | Execution Polcity|
-| ------------- | ------------- |
-| Allow all scripts | Unrestricted |
-| Allow local scripts and remote signed scripts | RemoteSigned |
-| Allow only signed scripts | AllSigned |
+**we have plenty of selection of Execution Policy example check the below... i recommend first one.**
+| Group Policy ||| Execution Polcity|
+| ------------- ||| ------------- |
+| Allow all scripts ||| Unrestricted |
+| Allow local scripts and remote signed scripts ||| RemoteSigned |
+| Allow only signed scripts ||| AllSigned |
 
 ```powershell
 
