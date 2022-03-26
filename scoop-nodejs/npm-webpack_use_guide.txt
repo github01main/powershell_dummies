@@ -1,0 +1,65 @@
+1) webpack.json creator.
+npm init -y
+
+2) webpack build.
+npm run build
+
+3) create webpack.conig.js
+
+add this codes on the top of lines.
+
+// quick cooking this website html. ps) but this is just html not a django.html
+// const HtmlWebpackPlugin = require('html-webpack-plugin')
+// analyzing config this website.
+
+const path = require('path')
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const bundleAnalyzerPlugin = require('webpack-bundle-analyzer').bundleAnalyzerPlugin
+
+/*
+    mode   : export mode. 
+    entry  : convert file path.
+    output : converted file path.
+    devtool: converted javascript attributes are here. 
+    module : what you want to export files and rules.
+*/ 
+module.exports = {
+    // 1) baking target and bake mode.
+    // mode list production , development ,none
+    mode   : 'production',
+    entry  : {
+        bundle : path.resolve(__dirname, 'src/js/bundle.js'),
+    },
+    // 2) output set-up.
+    output : {
+        path : path.resolve(__dirname, 'static/js'), // saving location.
+        filename : '[name].js',                      // saving name.
+        clean : true,                                // delete several cashed hashes and remain current js file.
+    },
+    // 3) export js with .map
+    devtool : 'source-map',
+    module : {
+        // use for scss set-up.
+        rules : [
+            {
+                // fetch scss to js
+                test : /\.scss$/,
+                use : ['style-loader','css-loader','sass-loader'],
+            },
+            {
+                // summary files but except node_modules.
+                test : /\.js$/,
+                exclude : /node_modules/,
+                use : {
+                    loader : 'babel-loader',
+                    options : {
+                        presets : ['@babel/preset-env'],
+                    },
+                },
+            },
+        ]
+    },
+    plugins : [
+           new BundleAnalyzerPlugin(),
+    ]
+}
