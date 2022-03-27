@@ -3,6 +3,8 @@
 this auto installation powershell program has dependencies for use oh-my-posh on win 10.
 
 ## Features
+You can download a zip containing the latest version of Cascadia Code from the releases page here:<br/>
+[https://github.com/microsoft/cascadia-code/releases](https://github.com/microsoft/cascadia-code/releases)
 
 The variants contained within are :
 
@@ -23,12 +25,10 @@ the download zip contains various file formats:
 Whichever format you prefer to install, we do not recommend installing more than one as it can cause naming issues within the OS.<br/>
 
 Once unzipped, open the font file—this will open a new window displaying the characters included in the font along with the font displayed at different sizes. This window should have an "Install" button that will install the font on your machine when clicked.
-* [powershell_dummies/scoop-windows-terminal](https://github.com/github01main/powershell_dummies/tree/main/scoop-windows-terminal)
-* [powershell_dummies/scoop-linux-toolkit](https://github.com/github01main/powershell_dummies/tree/main/scoop-linux_toolkit)
-* [powershell_dummies/scoop-nodejs](https://github.com/github01main/powershell_dummies/tree/main/scoop-nodejs)
-* [powershell_dummies/scoop-hub](https://github.com/github01main/powershell_dummies/tree/main/scoop-hub)
 
-## Usage
+👉 Note: If you have previously installed a version of Cascadia Code, please uninstall the previous version prior to installing a new version. Not doing so can result in improper rendering. Please see the [double install page if you should run into issues](https://github.com/microsoft/cascadia-code/wiki/Double-installation-issue)
+
+## Installing Cascadia Code in VS Code
 you must Install [scoop](https://scoop.sh/) on your PC if you are using windows os.<br/>
 Make sure PowerShell 5 (or later, include PowerShell Core) and .NET Framework 4.5 (or later) are installed. Then run:
 ```powershell
