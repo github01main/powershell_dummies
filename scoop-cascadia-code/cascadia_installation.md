@@ -2,7 +2,7 @@
 
 this auto installation powershell program has dependencies for use oh-my-posh on win 10.
 
-## Features
+## Let you know what is Cascadia-code
 You can download a zip containing the latest version of Cascadia Code from the releases page here:<br/>
 [https://github.com/microsoft/cascadia-code/releases](https://github.com/microsoft/cascadia-code/releases)
 
@@ -29,15 +29,15 @@ Once unzipped, open the font file—this will open a new window displaying the c
 👉 Note: If you have previously installed a version of Cascadia Code, please uninstall the previous version prior to installing a new version. Not doing so can result in improper rendering. Please see the [double install page if you should run into issues](https://github.com/microsoft/cascadia-code/wiki/Double-installation-issue)
 
 ## Installing Cascadia Code in VS Code
-you must Install [scoop](https://scoop.sh/) on your PC if you are using windows os.<br/>
-Make sure PowerShell 5 (or later, include PowerShell Core) and .NET Framework 4.5 (or later) are installed. Then run:
-```powershell
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+1. Go to File > Preferences > Settings or hit Ctrl + , in VS Code.
+2. Enter "Font Face" in search field.
+3. Enter following in Font Face option: 'Cascadia Code', Consolas, 'Courier New', monospace.
+4. Enable Font Ligatures option available just below 'Font Face'.
+5. Press Enter and you're good to go.
+6. To customize weight, enter "Font Weight" in search field.
+7. Select, or type in, the desired font weight (the latest version of VS Code allows manual entry of any font weight).
 
-# or shorter
-iwr -useb get.scoop.sh | iex
-```
-if you didn't worked ? it's ok just follow this [Execution policies](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2) and reboot your computer.
+>Note: If you've installed font and it does not get applied in VS Code, try restarting VS Code.
 
 1. first step check your powershell Execution Policies.
 ```powershell
